@@ -1,0 +1,478 @@
+Welcome to Node-RED
+===================
+
+29 Jun 03:45:59 - [info] Node-RED version: v0.19.4
+29 Jun 03:45:59 - [info] Node.js  version: v8.12.0
+29 Jun 03:45:59 - [info] Linux 4.15.0-52-generic ia32 LE
+29 Jun 03:46:00 - [info] Loading palette nodes
+29 Jun 03:46:01 - [warn] rpi-gpio : Raspberry Pi specific node set inactive
+29 Jun 03:46:01 - [warn] rpi-gpio : Cannot find Pi RPi.GPIO python library
+29 Jun 03:46:05 - [info] Dashboard version 2.9.8 started at /ui
+29 Jun 03:46:05 - [info] Settings file  : /home/user/.node-red/settings.js
+29 Jun 03:46:05 - [info] Context store  : 'default' [module=memory]
+29 Jun 03:46:05 - [info] User directory : /home/user/.node-red
+29 Jun 03:46:05 - [warn] Projects disabled : editorTheme.projects.enabled=false
+29 Jun 03:46:05 - [info] Flows file     : /home/user/.node-red/flows_user-iot.json
+29 Jun 03:46:05 - [info] Server now running at http://127.0.0.1:1880/
+29 Jun 03:46:05 - [warn] 
+
+---------------------------------------------------------------------
+Your flow credentials file is encrypted using a system-generated key.
+
+If the system-generated key is lost for any reason, your credentials
+file will not be recoverable, you will have to delete it and re-enter
+your credentials.
+
+You should set your own key using the 'credentialSecret' option in
+your settings file. Node-RED will then re-encrypt your credentials
+file using your chosen key the next time you deploy a change.
+---------------------------------------------------------------------
+
+29 Jun 03:46:05 - [info] [GenericBLE] Start BLE scanning
+29 Jun 03:46:05 - [info] Starting flows
+29 Jun 03:46:05 - [info] [GenericBLE] Start BLE scanning
+29 Jun 03:46:05 - [info] Started flows
+29 Jun 03:46:05 - [info] [mqtt-broker:a08889ab.3b3708] Connected to broker: mqtt://localhost:1883
+29 Jun 03:48:13 - [info] Stopping flows
+29 Jun 03:48:13 - [info] [mqtt-broker:a08889ab.3b3708] Disconnected from broker: mqtt://localhost:1883
+29 Jun 03:48:13 - [info] Stopped flows
+29 Jun 03:48:13 - [info] Starting flows
+29 Jun 03:48:13 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:48:13 - [info] [GenericBLE] Start BLE scanning
+29 Jun 03:48:13 - [info] Started flows
+29 Jun 03:48:13 - [info] [tcp in:8f6d49f4.f31488] connected to localhost:60001
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:29 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:49 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:49 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:49 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:49 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:50 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:50 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:48:50 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:48:50 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:00 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:00 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:00 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:00 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:00 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:00 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:00 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:00 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:00 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:00 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:22 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:22 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:22 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:22 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:22 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:22 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:23 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:23 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:23 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:24 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:24 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:24 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:35 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:35 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:35 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:35 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:35 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:35 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:35 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:35 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:45 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:45 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:45 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:45 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:45 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:45 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:45 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:45 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:45 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:45 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:46 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:46 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:49 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:49 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:49 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:49:49 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:49 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:49:49 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:50:01 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:50:01 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:50:01 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:50:01 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:50:01 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:50:01 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:50:02 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:50:02 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:50:02 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:50:02 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:50:02 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:50:02 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:50:02 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:50:02 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:50:06 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:50:06 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:50:06 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:50:06 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:50:06 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:50:06 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:50:10 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:50:20 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:50:20 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:50:20 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:50:30 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:50:30 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:50:30 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:50:40 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:50:40 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:50:40 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:50:50 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:50:50 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:50:50 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:51:00 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:51:00 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:51:00 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:51:10 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:51:10 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:51:10 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:51:20 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:51:20 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:51:20 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:51:30 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:51:30 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:51:30 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:51:40 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:51:40 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:51:40 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:51:50 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:51:50 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:51:50 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:52:00 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:52:00 - [info] [tcp in:8f6d49f4.f31488] connected to localhost:60001
+29 Jun 03:52:13 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:13 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:13 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:13 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:13 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:13 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:13 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:13 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:13 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:14 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:33 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:34 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:34 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:34 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:34 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:34 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:34 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:34 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:34 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:34 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:34 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:34 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:45 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:45 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:45 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:45 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:45 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:45 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:45 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:45 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:51 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:51 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:51 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:51 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:51 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:51 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:51 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:51 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:53 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:53 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:52:53 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:52:53 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:02 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:02 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:02 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:02 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:11 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:11 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:11 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:11 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:11 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:11 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:12 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:12 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:12 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:12 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:15 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:15 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:15 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:15 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:15 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:15 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:15 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:15 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:38 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:38 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:38 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:38 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:38 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:38 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:39 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:39 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:39 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:39 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:39 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:39 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:43 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:43 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:43 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:43 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:43 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:43 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:43 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:43 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:50 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:50 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:50 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:50 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:50 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:50 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:57 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:57 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:57 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:57 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:57 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:57 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:58 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:58 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:58 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:58 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:53:58 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:53:58 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:31 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:31 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:31 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:31 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:34 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:34 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:34 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:34 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:47 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:47 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:47 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:47 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:47 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:47 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:49 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:49 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:49 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:49 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:49 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:49 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:56 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:56 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:56 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:54:56 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:56 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:54:56 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:02 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:02 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:02 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:02 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:05 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:05 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:05 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:05 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:05 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:05 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:11 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:11 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:11 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:11 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:11 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:11 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:11 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:11 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:11 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:11 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:15 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:15 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:15 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:15 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:15 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:15 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:19 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:19 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:19 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:19 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:19 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:19 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:19 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:19 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:28 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:28 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:28 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:28 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:28 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:28 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:35 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:35 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:35 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:35 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:35 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:35 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:35 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:36 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:36 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:36 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:42 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:42 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:42 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:42 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:50 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:50 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:50 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:50 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:50 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:50 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:52 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:52 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:52 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:52 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:52 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:52 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:52 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:52 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:52 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:52 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:53 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:53 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:55:53 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:55:53 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:07 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:07 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:07 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:07 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:07 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:07 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:10 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:10 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:10 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:10 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:10 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:10 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:10 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:10 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:23 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:23 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:23 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:23 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:23 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:23 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:26 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:26 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:26 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:26 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:26 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:26 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:26 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:26 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:33 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:33 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:33 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:33 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:33 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:33 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:33 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:33 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:33 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:33 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:43 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:43 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:43 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:43 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:43 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:43 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:43 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:43 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:46 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:46 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:46 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:46 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:46 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:46 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:54 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:54 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:54 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:56:54 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:54 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:56:54 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:57:00 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:57:00 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:57:00 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:57:00 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:57:00 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:57:01 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:57:07 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:57:07 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:57:07 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:57:07 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:57:07 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:57:07 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:57:07 - [info] [ThingspeakSendSimple:Send Humidity] OK
+29 Jun 03:57:07 - [info] [ThingspeakSendSimple:Send Temperature] OK
+29 Jun 03:57:47 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:57:57 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:57:57 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:57:57 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:58:07 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:58:07 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:58:07 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:58:17 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+29 Jun 03:58:17 - [info] [tcp in:8f6d49f4.f31488] Error: connect ECONNREFUSED 127.0.0.1:60001
+29 Jun 03:58:17 - [info] [tcp in:8f6d49f4.f31488] connection lost to localhost:60001
+29 Jun 03:58:27 - [info] [tcp in:8f6d49f4.f31488] connecting to localhost:60001
+
