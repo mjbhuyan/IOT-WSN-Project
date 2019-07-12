@@ -1,0 +1,3 @@
+COMPONENT=httpAppC
+include $(MAKERULES)
+
