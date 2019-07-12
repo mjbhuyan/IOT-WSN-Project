@@ -3,17 +3,17 @@ user@user-iot:~/Desktop/reiotprojectcode2$ make micaz simmkdir -p simbuild/micaz
   writing XML schema to app.xml
   compiling httpAppC to object file sim.o
 ncc -c -shared -fPIC -o simbuild/micaz/sim.o -g -O0 -tossim -fnesc-nido-tosnodes=1000 -fnesc-simulate -fnesc-nido-motenumber=sim_node\(\) -fnesc-gcc=gcc -Wall -Wshadow -Wnesc-all -target=micaz -fnesc-cfile=simbuild/micaz/app.c -board=micasb -DDEFINED_TOS_AM_GROUP=0x22 --param max-inline-insns-single=100000 -DIDENT_APPNAME=\"httpAppC\" -DIDENT_USERNAME=\"user\" -DIDENT_HOSTNAME=\"user-iot\" -DIDENT_USERHASH=0x2c00343aL -DIDENT_TIMESTAMP=0x5d286d67L -DIDENT_UIDHASH=0x6c361f7dL -Wno-nesc-data-race httpAppC.nc   -fnesc-dump=components -fnesc-dump=variables -fnesc-dump=constants -fnesc-dump=typedefs -fnesc-dump=interfacedefs -fnesc-dump=tags -fnesc-dumpfile=app.xml
-^[[AhttpC.nc: In function ‘httpC$sendReq$runTask’:
-httpC.nc:44:7: warning: unused variable ‘i’ [-Wunused-variable]
+^[[AhttpC.nc: In function â€˜httpC$sendReq$runTaskâ€™:
+httpC.nc:44:7: warning: unused variable â€˜iâ€™ [-Wunused-variable]
          int i;
        ^
-/opt/tinyos-main-2.1.2/tos/lib/tossim/sim_noise.c: In function ‘sim_noise_gen’:
-/opt/tinyos-main-2.1.2/tos/lib/tossim/sim_noise.c:291:7: warning: variable ‘noiseIndex’ set but not used [-Wunused-but-set-variable]
+/opt/tinyos-main-2.1.2/tos/lib/tossim/sim_noise.c: In function â€˜sim_noise_genâ€™:
+/opt/tinyos-main-2.1.2/tos/lib/tossim/sim_noise.c:291:7: warning: variable â€˜noiseIndexâ€™ set but not used [-Wunused-but-set-variable]
    int noiseIndex = 0;
        ^
   compiling Python support and C libraries into pytossim.o, tossim.o, and c-support.o
 g++ -c  -shared -fPIC -o simbuild/micaz/pytossim.o -g -O0 -DIDENT_APPNAME=\"httpAppC\" -DIDENT_USERNAME=\"user\" -DIDENT_HOSTNAME=\"user-iot\" -DIDENT_USERHASH=0x2c00343aL -DIDENT_TIMESTAMP=0x5d286d67L -DIDENT_UIDHASH=0x6c361f7dL /opt/tinyos-main-2.1.2/tos/lib/tossim/tossim_wrap.cxx -I/usr/local/include/python2.7 -I/opt/tinyos-main-2.1.2/tos/lib/tossim -DHAVE_CONFIG_H 
-/opt/tinyos-main-2.1.2/tos/lib/tossim/tossim_wrap.cxx: In function ‘void SWIG_Python_AddErrorMsg(const char*)’:
+/opt/tinyos-main-2.1.2/tos/lib/tossim/tossim_wrap.cxx: In function â€˜void SWIG_Python_AddErrorMsg(const char*)â€™:
 /opt/tinyos-main-2.1.2/tos/lib/tossim/tossim_wrap.cxx:880:42: warning: format not a string literal and no format arguments [-Wformat-security]
      PyErr_Format(PyExc_RuntimeError, mesg);
                                           ^
@@ -10245,7 +10245,6 @@ DEBUG (1): >>>Pack
  
  
 DEBUG (3): Packet sent...and ack received at time 0:0:2.363998361 
-
 
 
 Simulation finished!
