@@ -1,0 +1,81 @@
+7/12/2019, 2:25:49 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+122
+7/12/2019, 2:25:49 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+0
+7/12/2019, 2:25:49 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+117
+7/12/2019, 2:25:49 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+95
+7/12/2019, 2:25:50 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+219
+7/12/2019, 2:25:50 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+60
+7/12/2019, 2:25:50 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+235
+7/12/2019, 2:25:50 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+126
+7/12/2019, 2:25:51 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+69
+7/12/2019, 2:25:51 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+175
+7/12/2019, 2:25:51 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+197
+7/12/2019, 2:25:52 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+220
+7/12/2019, 2:25:52 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+247
+7/12/2019, 2:25:52 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+255
+7/12/2019, 2:25:52 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+0
+7/12/2019, 2:25:53 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+150
+7/12/2019, 2:25:53 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+86
+7/12/2019, 2:25:53 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+137
+7/12/2019, 2:25:53 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+0
+7/12/2019, 2:25:54 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+161
+7/12/2019, 2:25:54 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+42
+7/12/2019, 2:25:55 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+162
+7/12/2019, 2:25:55 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+73
+7/12/2019, 2:25:55 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+104
+7/12/2019, 2:25:55 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+177
+7/12/2019, 2:25:56 PMnode: 3ffc3dde.e35842
+Temperature : msg.payload : number
+143
+7/12/2019, 2:25:56 PMnode: 48f3f47d.01bbac
+Humidity : msg.payload : number
+193
