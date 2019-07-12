@@ -57,7 +57,7 @@ Humidity : msg.payload : number
 0
 7/12/2019, 2:25:54 PMnode: 3ffc3dde.e35842
 Temperature : msg.payload : number
-161
+162
 7/12/2019, 2:25:54 PMnode: 48f3f47d.01bbac
 Humidity : msg.payload : number
 42
