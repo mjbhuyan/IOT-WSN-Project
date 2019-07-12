@@ -1,0 +1,210 @@
+7/1/2019, 6:28:46 AMnode: msg.payload
+temperature : msg.payload : number
+47.7
+7/1/2019, 6:28:46 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+44.4
+7/1/2019, 6:28:46 AMnode: msg.payload
+temperature : msg.payload : number
+42.7
+7/1/2019, 6:28:46 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+48
+7/1/2019, 6:28:47 AMnode: msg.payload
+temperature : msg.payload : number
+48
+7/1/2019, 6:28:47 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+45.6
+7/1/2019, 6:28:52 AMnode: msg.payload
+temperature : msg.payload : number
+46.9
+7/1/2019, 6:28:52 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+42.8
+7/1/2019, 6:28:52 AMnode: msg.payload
+temperature : msg.payload : number
+43
+7/1/2019, 6:28:52 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+47
+7/1/2019, 6:28:52 AMnode: msg.payload
+temperature : msg.payload : number
+47.5
+7/1/2019, 6:28:53 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+48.2
+7/1/2019, 6:28:53 AMnode: msg.payload
+temperature : msg.payload : number
+45.4
+7/1/2019, 6:28:53 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+49.8
+7/1/2019, 6:28:58 AMnode: msg.payload
+temperature : msg.payload : number
+47.2
+7/1/2019, 6:28:58 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+42.8
+7/1/2019, 6:28:58 AMnode: msg.payload
+temperature : msg.payload : number
+44.7
+7/1/2019, 6:28:58 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+48.8
+7/1/2019, 6:28:58 AMnode: msg.payload
+temperature : msg.payload : number
+45.9
+7/1/2019, 6:28:58 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+43.6
+7/1/2019, 6:28:58 AMnode: msg.payload
+temperature : msg.payload : number
+50.7
+7/1/2019, 6:28:58 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+42.6
+7/1/2019, 6:29:02 AMnode: msg.payload
+temperature : msg.payload : number
+47.1
+7/1/2019, 6:29:02 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+44.4
+7/1/2019, 6:29:02 AMnode: msg.payload
+temperature : msg.payload : number
+42.8
+7/1/2019, 6:29:02 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+47.2
+7/1/2019, 6:29:02 AMnode: msg.payload
+temperature : msg.payload : number
+47.2
+7/1/2019, 6:29:02 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+47
+7/1/2019, 6:29:03 AMnode: msg.payload
+temperature : msg.payload : number
+50.7
+7/1/2019, 6:29:03 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+42.6
+7/1/2019, 6:29:07 AMnode: msg.payload
+temperature : msg.payload : number
+46.9
+7/1/2019, 6:29:07 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+42.8
+7/1/2019, 6:29:08 AMnode: msg.payload
+temperature : msg.payload : number
+43.2
+7/1/2019, 6:29:08 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+47.2
+7/1/2019, 6:29:09 AMnode: msg.payload
+temperature : msg.payload : number
+47
+7/1/2019, 6:29:09 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+44.4
+7/1/2019, 6:29:09 AMnode: msg.payload
+temperature : msg.payload : number
+42.9
+7/1/2019, 6:29:10 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+47.8
+7/1/2019, 6:29:10 AMnode: msg.payload
+temperature : msg.payload : number
+45.3
+7/1/2019, 6:29:10 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+49.2
+7/1/2019, 6:29:17 AMnode: msg.payload
+temperature : msg.payload : number
+43
+7/1/2019, 6:29:17 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+44.8
+7/1/2019, 6:29:18 AMnode: msg.payload
+temperature : msg.payload : number
+45.3
+7/1/2019, 6:29:18 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+42.6
+7/1/2019, 6:29:18 AMnode: msg.payload
+temperature : msg.payload : number
+49.6
+7/1/2019, 6:29:18 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+44.4
+7/1/2019, 6:29:18 AMnode: msg.payload
+temperature : msg.payload : number
+45.3
+7/1/2019, 6:29:18 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+51.2
+7/1/2019, 6:29:21 AMnode: msg.payload
+temperature : msg.payload : number
+45.6
+7/1/2019, 6:29:21 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+37.8
+7/1/2019, 6:29:21 AMnode: msg.payload
+temperature : msg.payload : number
+45.4
+7/1/2019, 6:29:21 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+46.8
+7/1/2019, 6:29:21 AMnode: msg.payload
+temperature : msg.payload : number
+44.9
+7/1/2019, 6:29:21 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+47.4
+7/1/2019, 6:29:25 AMnode: msg.payload
+temperature : msg.payload : number
+46.6
+7/1/2019, 6:29:25 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+42.8
+7/1/2019, 6:29:25 AMnode: msg.payload
+temperature : msg.payload : number
+43.4
+7/1/2019, 6:29:25 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+46
+7/1/2019, 6:29:26 AMnode: msg.payload
+temperature : msg.payload : number
+48
+7/1/2019, 6:29:26 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+48.4
+7/1/2019, 6:29:26 AMnode: msg.payload
+temperature : msg.payload : number
+47.6
+7/1/2019, 6:29:26 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+44.2
+7/1/2019, 6:29:26 AMnode: msg.payload
+temperature : msg.payload : number
+48.5
+7/1/2019, 6:29:26 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+41.6
+7/1/2019, 6:29:27 AMnode: msg.payload
+temperature : msg.payload : number
+47.3
+7/1/2019, 6:29:27 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+44.4
+7/1/2019, 6:29:27 AMnode: msg.payload
+temperature : msg.payload : number
+43.1
+7/1/2019, 6:29:27 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+46.2
+7/1/2019, 6:29:27 AMnode: msg.payload
+temperature : msg.payload : number
+48.7
+7/1/2019, 6:29:27 AMnode: 66fd5f9f.619b3
+humidity : msg.payload : number
+52.8
