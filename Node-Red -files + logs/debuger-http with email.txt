@@ -1,0 +1,108 @@
+7/1/2019, 6:27:12 AMnode: bhuyanmj@gmail.com
+msg : string[100]
+"Warning: msg properties can no longer override set node properties. See bit.ly/nr-override-msg-props"
+7/1/2019, 6:27:12 AMnode: Temperature
+Temperature Rising Alert : msg : Object
+{ payload: "Emergency Alert! There is an h…", topic: "Temperature Rising Alert", to: "bhuyanmj@gmail.com, bakti.aria…", _msgid: "59994806.8a65e8" }
+7/1/2019, 6:27:12 AMnode: Humidity
+msg.payload : number
+42.4
+7/1/2019, 6:27:12 AMnode: Humidity
+msg.payload : number
+42.4
+7/1/2019, 6:27:13 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:13 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:13 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:13 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:13 AMnode: Humidity
+msg.payload : number
+51
+7/1/2019, 6:27:13 AMnode: Humidity
+msg.payload : number
+49.4
+7/1/2019, 6:27:13 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:13 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:13 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:13 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:13 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:14 AMnode: Humidity
+msg.payload : number
+47.2
+7/1/2019, 6:27:14 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:14 AMnode: Humidity
+msg.payload : number
+42.6
+7/1/2019, 6:27:14 AMnode: Humidity
+msg.payload : number
+48
+7/1/2019, 6:27:14 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:14 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:14 AMnode: Humidity
+msg.payload : number
+55
+7/1/2019, 6:27:14 AMnode: Humidity
+msg.payload : number
+49.2
+7/1/2019, 6:27:14 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:14 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:15 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:15 AMnode: Humidity
+msg.payload : number
+46.8
+7/1/2019, 6:27:15 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:15 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:15 AMnode: Humidity
+msg.payload : number
+42.2
+7/1/2019, 6:27:15 AMnode: Humidity
+msg.payload : number
+46.8
+7/1/2019, 6:27:15 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:15 AMnode: Humidity
+msg.payload : number
+0
+7/1/2019, 6:27:15 AMnode: Humidity
+msg.payload : number
+49.2
+7/1/2019, 6:27:15 AMnode: Humidity
+msg.payload : number
+47.4
+7/1/2019, 6:27:15 AMnode: Humidity
+msg.payload : number
+0
